@@ -1,3 +1,8 @@
+:root {
+  --main-bg-color: rgb(18, 16, 20);
+  --main-font-color: rgb(248, 245, 242);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +13,7 @@
 html {
   font-size: 10px;
   font-family: 'Fira Sans', sans-serif;
+  color: var(--main-font-color);
 }
 
 .flex {
@@ -22,8 +28,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  border-bottom: 1px black solid;
-  box-shadow: 0px 5px 10px rgba(59, 59, 63, 0.13);
+  border-bottom: 1px var(--main-font-color) solid;
+  box-shadow: 0px 5px 10px rgba(10, 5, 14, 0.534);
 }
 
 h1 {
@@ -38,7 +44,8 @@ h2 {
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 60px;
+  background-color: var(--main-bg-color);
 }
 
 main {
