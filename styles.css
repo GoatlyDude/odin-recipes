@@ -28,19 +28,18 @@ header {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  border-bottom: 1px var(--main-font-color) solid;
-  box-shadow: 0px 5px 10px rgba(10, 5, 14, 0.534);
+  border-bottom: 2px rgba(58, 53, 53, 0.418) solid;
 }
 
 h1 {
   display: inline-block;
-  font-size: 3.4rem;
+  font-size: 2.8rem;
   margin-top: 60px;
 }
 
 h2 {
   display: inline-block;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
 }
 
 body {
@@ -51,4 +50,25 @@ body {
 main {
   margin: 20px;
   text-align: center;
+}
+
+#imageContainer {
+  margin-top: 30px;
+  justify-content: center;
+  vertical-align: middle;
+  gap: 10px;
+}
+
+.image {
+  width: 20vw;
+  height: 440px;
+  object-fit:cover;
+  transition: .3s ease-in-out;
+  border-radius: 2px;
+}
+
+.image:hover {
+  width: 30vw;
+  transition: .3s ease-in-out;
+  
 }
